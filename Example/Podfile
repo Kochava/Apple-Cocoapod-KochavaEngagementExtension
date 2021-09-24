@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'Apple-Cocoapod-KochavaEngagementExtension_Example' do
+  pod 'Apple-Cocoapod-KochavaEngagementExtension', :path => '../'
+
+  target 'Apple-Cocoapod-KochavaEngagementExtension_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
