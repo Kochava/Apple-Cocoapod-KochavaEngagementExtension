@@ -1,5 +1,6 @@
 import XCTest
-import Apple-Cocoapod-KochavaEngagementExtension
+// import Apple-Cocoapod-KochavaEngagementExtension
+import KochavaEngagementExtension
 
 class Tests: XCTestCase {
     

@@ -1,0 +1,6 @@
+framework module Pods_Apple_Cocoapod_KochavaEngagementExtension_Example {
+  umbrella header "Pods-Apple-Cocoapod-KochavaEngagementExtension_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
