@@ -1,6 +1,6 @@
 {
   "name": "Apple-Cocoapod-KochavaEngagementExtension",
-  "version": "0.1.0",
+  "version": "5.0.0",
   "summary": "The KochavaEngagementExtension module of the KochavaTracker SDK for Apple iOS, macOS, macCatalyst, tvOS, and watchOS.",
   "description": "The KochavaEngagementExtension module is an optional module within the Kochava SDK providing engagement support for app extensions.  This includes push notifications (a.k.a. remote notifications).  This includes support or compatibility for iOS, macOS, macCatalyst, tvOS, and watchOS.",
   "homepage": "http://www.kochava.com",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/Kochava/Apple-Cocoapod-KochavaEngagementExtension.git",
-    "tag": "0.1.0"
+    "tag": "5.0.0"
   },
   "platforms": {
     "ios": "10.3",
@@ -51,7 +51,7 @@
   },
   "dependencies": {
     "Apple-Cocoapod-KochavaCore": [
-      "~> 0.1.0"
+      "~> 5.0.0"
     ]
   },
   "vendored_frameworks": "Apple-Cocoapod-KochavaEngagementExtension/Frameworks/KochavaEngagementExtension.xcframework",

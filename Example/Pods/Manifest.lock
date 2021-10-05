@@ -1,7 +1,7 @@
 PODS:
-  - Apple-Cocoapod-KochavaCore (0.1.0)
-  - Apple-Cocoapod-KochavaEngagementExtension (0.1.0):
-    - Apple-Cocoapod-KochavaCore (~> 0.1.0)
+  - Apple-Cocoapod-KochavaCore (5.0.0)
+  - Apple-Cocoapod-KochavaEngagementExtension (5.0.0):
+    - Apple-Cocoapod-KochavaCore (~> 5.0.0)
 
 DEPENDENCIES:
   - Apple-Cocoapod-KochavaEngagementExtension (from `../`)
@@ -15,8 +15,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Apple-Cocoapod-KochavaCore: 3c82dbcd03a48cf63976bf650bd21794a45e2f7c
-  Apple-Cocoapod-KochavaEngagementExtension: ffaf577d8ce881ab7b27c286d07ad31b04af1f58
+  Apple-Cocoapod-KochavaCore: 9df48e53d70dc8fc6c34d05414e897786762db32
+  Apple-Cocoapod-KochavaEngagementExtension: 20fd888d43639cefd9d3120cb07c9320962f046c
 
 PODFILE CHECKSUM: b0144a2a266aad5b9b0daeaac934fdd9d0ccbc75
 
