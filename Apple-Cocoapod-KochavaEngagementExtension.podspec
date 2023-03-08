@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'Apple-Cocoapod-KochavaEngagementExtension'
-    s.version          = '6.0.0'
+    s.version          = '6.1.0'
     s.summary          = 'The KochavaEngagementExtension module of the KochavaTracker SDK for Apple iOS, macOS, macCatalyst, tvOS, and watchOS.'
 
     # This description is used to generate tags and improve search results.
@@ -43,7 +43,7 @@ Pod::Spec.new do |s|
     s.osx.frameworks   = 'Foundation', 'AppKit', 'UserNotifications'
     s.tvos.frameworks   = 'Foundation', 'UIKit', 'UserNotifications'
     s.watchos.frameworks   = 'Foundation', 'UIKit', 'UserNotifications'
-    s.dependency 'Apple-Cocoapod-KochavaCore', '~> 6.0.0'
+    s.dependency 'Apple-Cocoapod-KochavaCore', '~> 6.1.0'
 
     # s.platforms = { :ios => "10.3", :osx => "10.14", :tvos => "10.2", :watchos => "3.2" }
     s.vendored_frameworks = 'Apple-Cocoapod-KochavaEngagementExtension/Frameworks/KochavaEngagementExtension.xcframework'
