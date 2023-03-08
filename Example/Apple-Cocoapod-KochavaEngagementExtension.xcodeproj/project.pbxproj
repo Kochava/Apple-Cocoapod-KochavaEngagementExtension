@@ -313,8 +313,8 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Apple-Cocoapod-KochavaEngagementExtension_Example/Pods-Apple-Cocoapod-KochavaEngagementExtension_Example-frameworks.sh",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/KochavaCore/KochavaCore.framework/KochavaCore",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/KochavaEngagementExtension/KochavaEngagementExtension.framework/KochavaEngagementExtension",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/Apple-Cocoapod-KochavaCore/KochavaCore.framework/KochavaCore",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/Apple-Cocoapod-KochavaEngagementExtension/KochavaEngagementExtension.framework/KochavaEngagementExtension",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
