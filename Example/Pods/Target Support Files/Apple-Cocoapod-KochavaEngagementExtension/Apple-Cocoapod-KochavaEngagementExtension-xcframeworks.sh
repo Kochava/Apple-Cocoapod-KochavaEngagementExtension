@@ -17,14 +17,11 @@ RSYNC_PROTECT_TMP_FILES=(--filter "P .*.??????")
 variant_for_slice()
 {
   case "$1" in
-  "KochavaEngagementExtension.xcframework/macos-arm64_x86_64")
-    echo ""
+  "KochavaEngagementExtension.xcframework/tvos-arm64_x86_64-simulator")
+    echo "simulator"
     ;;
-  "KochavaEngagementExtension.xcframework/ios-arm64_x86_64-maccatalyst")
-    echo "maccatalyst"
-    ;;
-  "KochavaEngagementExtension.xcframework/tvos-arm64")
-    echo ""
+  "KochavaEngagementExtension.xcframework/watchos-arm64_i386_x86_64-simulator")
+    echo "simulator"
     ;;
   "KochavaEngagementExtension.xcframework/ios-arm64_armv7")
     echo ""
@@ -32,14 +29,17 @@ variant_for_slice()
   "KochavaEngagementExtension.xcframework/ios-arm64_i386_x86_64-simulator")
     echo "simulator"
     ;;
-  "KochavaEngagementExtension.xcframework/watchos-arm64_i386_x86_64-simulator")
-    echo "simulator"
+  "KochavaEngagementExtension.xcframework/tvos-arm64")
+    echo ""
     ;;
-  "KochavaEngagementExtension.xcframework/tvos-arm64_x86_64-simulator")
-    echo "simulator"
+  "KochavaEngagementExtension.xcframework/macos-arm64_x86_64")
+    echo ""
     ;;
   "KochavaEngagementExtension.xcframework/watchos-arm64_32_armv7k")
     echo ""
+    ;;
+  "KochavaEngagementExtension.xcframework/ios-arm64_x86_64-maccatalyst")
+    echo "maccatalyst"
     ;;
   esac
 }
@@ -47,14 +47,11 @@ variant_for_slice()
 archs_for_slice()
 {
   case "$1" in
-  "KochavaEngagementExtension.xcframework/macos-arm64_x86_64")
+  "KochavaEngagementExtension.xcframework/tvos-arm64_x86_64-simulator")
     echo "arm64 x86_64"
     ;;
-  "KochavaEngagementExtension.xcframework/ios-arm64_x86_64-maccatalyst")
-    echo "arm64 x86_64"
-    ;;
-  "KochavaEngagementExtension.xcframework/tvos-arm64")
-    echo "arm64"
+  "KochavaEngagementExtension.xcframework/watchos-arm64_i386_x86_64-simulator")
+    echo "arm64 i386 x86_64"
     ;;
   "KochavaEngagementExtension.xcframework/ios-arm64_armv7")
     echo "arm64 armv7"
@@ -62,14 +59,17 @@ archs_for_slice()
   "KochavaEngagementExtension.xcframework/ios-arm64_i386_x86_64-simulator")
     echo "arm64 i386 x86_64"
     ;;
-  "KochavaEngagementExtension.xcframework/watchos-arm64_i386_x86_64-simulator")
-    echo "arm64 i386 x86_64"
+  "KochavaEngagementExtension.xcframework/tvos-arm64")
+    echo "arm64"
     ;;
-  "KochavaEngagementExtension.xcframework/tvos-arm64_x86_64-simulator")
+  "KochavaEngagementExtension.xcframework/macos-arm64_x86_64")
     echo "arm64 x86_64"
     ;;
   "KochavaEngagementExtension.xcframework/watchos-arm64_32_armv7k")
     echo "arm64_32 armv7k"
+    ;;
+  "KochavaEngagementExtension.xcframework/ios-arm64_x86_64-maccatalyst")
+    echo "arm64 x86_64"
     ;;
   esac
 }
@@ -153,5 +153,5 @@ install_xcframework() {
   echo "Copied $source to $destination"
 }
 
-install_xcframework "${PODS_ROOT}/../../Apple-Cocoapod-KochavaEngagementExtension/Frameworks/KochavaEngagementExtension.xcframework" "Apple-Cocoapod-KochavaEngagementExtension" "framework" "ios-arm64_x86_64-maccatalyst" "ios-arm64_armv7" "ios-arm64_i386_x86_64-simulator"
+install_xcframework "${PODS_ROOT}/../../Apple-Cocoapod-KochavaEngagementExtension/Frameworks/KochavaEngagementExtension.xcframework" "Apple-Cocoapod-KochavaEngagementExtension" "framework" "ios-arm64_armv7" "ios-arm64_i386_x86_64-simulator" "ios-arm64_x86_64-maccatalyst"
 
