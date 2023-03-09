@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
     The KochavaEngagementExtension module is an optional module within the Kochava SDK providing engagement support for app extensions.  This includes push notifications (a.k.a. remote notifications).  This includes support or compatibility for iOS, macOS, macCatalyst, tvOS, and watchOS.
     DESC
 
-    s.homepage         = 'http://www.kochava.com'
+    s.homepage         = 'https://cocoapods.org/pods/Apple-Cocoapod-KochavaEngagementExtension'
     s.license          = { :type => 'Commercial', :file => 'LICENSE' }
     s.author           = { 'Kochava' => 'support@kochava.com' }
     s.source           = { :git => 'https://github.com/Kochava/Apple-Cocoapod-KochavaEngagementExtension.git', :tag => s.version.to_s }
