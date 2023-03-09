@@ -11,7 +11,7 @@
 
 The KochavaEngagementExtension module is an optional module within the Kochava SDK providing engagement support for app extensions.  This includes push notifications (a.k.a. remote notifications).
 
-The Kochava SDK is a lightweight and easy to integrate SDK written in Objective-C, providing first-class integration with Kochava’s industry leading mobile attribution and analytics platform.
+The Kochava SDK is a lightweight and easy to integrate SDK written in Swift, providing first-class integration with Kochava’s industry leading mobile attribution and analytics platform.
 
 ## Built on
 
