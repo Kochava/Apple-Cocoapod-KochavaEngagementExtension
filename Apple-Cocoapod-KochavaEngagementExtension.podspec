@@ -8,14 +8,14 @@
 
 Pod::Spec.new do |s|
     s.name             = 'Apple-Cocoapod-KochavaEngagementExtension'
-    s.version          = '7.0.0'
+    s.version          = '7.1.0'
     s.summary          = 'The KochavaEngagementExtension module of the KochavaTracker SDK for Apple iOS, macOS, macCatalyst, tvOS, and watchOS.'
 
     s.description  = <<-DESC
     The KochavaEngagementExtension module is an optional module within the Kochava SDK providing engagement support for app extensions.  This includes push notifications (a.k.a. remote notifications).  This includes support or compatibility for iOS, macOS, macCatalyst, tvOS, and watchOS.
     DESC
 
-    s.homepage         = 'https://cocoapods.org/pods/Apple-Cocoapod-KochavaEngagementExtension'
+    s.homepage         = 'https://github.com/Kochava/Apple-Cocoapod-KochavaEngagementExtension'
     s.license          = { :type => 'Commercial', :file => 'LICENSE' }
     s.author           = { 'Kochava' => 'support@kochava.com' }
     s.source           = { :git => 'https://github.com/Kochava/Apple-Cocoapod-KochavaEngagementExtension.git', :tag => s.version.to_s }
@@ -36,7 +36,7 @@ Pod::Spec.new do |s|
     s.osx.frameworks   = 'Foundation', 'AppKit', 'UserNotifications'
     s.tvos.frameworks   = 'Foundation', 'UIKit', 'UserNotifications'
     s.watchos.frameworks   = 'Foundation', 'UIKit', 'UserNotifications'
-    s.dependency 'Apple-Cocoapod-KochavaCore', '~> 7.0.0'
+    s.dependency 'Apple-Cocoapod-KochavaCore', '~> 7.1.0'
 
     # s.platforms = { :ios => "12.4", :osx => "10.14", :tvos => "12.4", :watchos => "7.0" }
     s.vendored_frameworks = 'Apple-Cocoapod-KochavaEngagementExtension/Frameworks/KochavaEngagementExtension.xcframework'
