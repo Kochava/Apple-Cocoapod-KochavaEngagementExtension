@@ -7,6 +7,10 @@
 
 <img src="https://storage.googleapis.com/kochava-web/2016/07/Kochava-horizontal-black-800x154.png" width="260" />
 
+## Deprecation Notice
+
+This module was deprecated on November 1st, 2023.  Please contact support@kochava.com if you have any questions.
+
 ## Overview
 
 The KochavaEngagementExtension cocoapod is an optional module within the Kochava SDK providing engagement support for app extensions.  This includes push notifications (a.k.a. remote notifications).
